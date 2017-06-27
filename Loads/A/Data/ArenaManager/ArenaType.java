@@ -24,5 +24,20 @@ public enum ArenaType {
 	public int getTeams() { return this.teams }
 	public int getMaxTeamSize() { return this.maxTeamSize }
 	public World getWorld() { return this.world }
+	
+	enum Team {
+		
+		DEFAULT(0), 
+		BLUE(1), 
+		RED(2), 
+		YELLOW(3), 
+		GREEN(4);
+		
+		private final int priority;
+		
+		public Team(int priority) {
+			this.priority = priority;
+		}
+	}
 
 }
