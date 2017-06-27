@@ -18,5 +18,11 @@ public enum ArenaType {
 		this.maxTeamSize = maxTeamSize;
 		this.world = world;
 	}
+	
+	public int getMaxPlayers() { return this.maxPlayers }
+	public string getName() { return this.name }
+	public int getTeams() { return this.teams }
+	public int getMaxTeamSize() { return this.maxTeamSize }
+	public World getWorld() { return this.world }
 
 }
