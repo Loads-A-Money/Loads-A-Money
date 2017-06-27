@@ -2,7 +2,7 @@ package Loads.A.Data.ArenaManager;
 
 public enum ArenaType {
 
-	DEFAULT(2, "Deault", 0, 0, null, null),
+	DEFAULT(2, "Deault", 0, 0, null, new Location(world, 0, 0, 0),
 	TEST(8, "Test", 2, 4, null, null);
 	
 	private final int maxPlayers;
